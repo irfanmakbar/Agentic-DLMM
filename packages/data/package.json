@@ -1,0 +1,26 @@
+{
+  "name": "@agentic-dlmm/data",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@agentic-dlmm/core": "workspace:*",
+    "@agentic-dlmm/db": "workspace:*",
+    "@coral-xyz/anchor": "0.31.0",
+    "@meteora-ag/dlmm": "1.9.10",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^6.0.0",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.3.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.2.0",
+    "bn.js": "^5.2.4"
+  }
+}

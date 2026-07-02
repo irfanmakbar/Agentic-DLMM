@@ -1,0 +1,21 @@
+{
+  "name": "@agentic-dlmm/backtester",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@agentic-dlmm/core": "workspace:*",
+    "@agentic-dlmm/data": "workspace:*",
+    "@agentic-dlmm/db": "workspace:*",
+    "@coral-xyz/anchor": "0.31.0",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^6.0.0",
+    "commander": "^12.1.0"
+  }
+}

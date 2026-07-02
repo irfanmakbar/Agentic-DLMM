@@ -1,0 +1,6 @@
+# Phase 0 research environment (analysis notebooks only; learning libs arrive in Phase 3)
+jupyterlab>=4.2
+pandas>=2.2
+matplotlib>=3.9
+psycopg[binary]>=3.2
+requests>=2.32
